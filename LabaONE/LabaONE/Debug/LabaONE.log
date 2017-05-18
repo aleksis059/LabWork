@@ -1,0 +1,3 @@
+﻿  LabaONE.cpp
+c:\users\алексей\documents\visual studio 2015\projects\labaone\labaone\labaone.cpp(75): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  LabaONE.vcxproj -> c:\users\алексей\documents\visual studio 2015\Projects\LabaONE\Debug\LabaONE.exe
