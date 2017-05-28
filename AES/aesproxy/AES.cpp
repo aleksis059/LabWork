@@ -15,22 +15,22 @@ int main()
     int mode;
     while (cont)
     {
-        std::cout << "Âûáåðèòå ðåæèì: 1=OFB, 2=CFB, 3=CTR ,  4=CBC,  5=ECB\n";
+        std::cout << "Ã‚Ã»Ã¡Ã¥Ã°Ã¨Ã²Ã¥ Ã°Ã¥Ã¦Ã¨Ã¬: 1=OFB, 2=CFB, 3=CTR ,  4=CBC,  5=ECB\n";
         std::cin >> mode;
         if (mode > 5 || mode < 1)
         {
             system("cls");
-            std::cout << "Îøèáêà, âîçìîæíûå íîìåðà ðåæèìîâ 1-5";
+            std::cout << "ÃŽÃ¸Ã¨Ã¡ÃªÃ , Ã¢Ã®Ã§Ã¬Ã®Ã¦Ã­Ã»Ã¥ Ã­Ã®Ã¬Ã¥Ã°Ã  Ã°Ã¥Ã¦Ã¨Ã¬Ã®Ã¢ 1-5";
             _getch();
         }
         else cont = false;
         system("cls");
     }
 
-    std::cout << "Èäåò ñ÷èòûâàíèå plain.docx...";
+    std::cout << "ÃˆÃ¤Ã¥Ã² Ã±Ã·Ã¨Ã²Ã»Ã¢Ã Ã­Ã¨Ã¥ Ishodnik.docx...";
     plain.ReadData();
     system("cls");
-    std::cout << "Èäåò Øèôðîâàíèå plain.docx...";
+    std::cout << "ÃˆÃ¤Ã¥Ã² Ã˜Ã¨Ã´Ã°Ã®Ã¢Ã Ã­Ã¨Ã¥ Ishodnik.docx...";
     
 	switch (mode)
     {
@@ -41,11 +41,11 @@ int main()
 	case 5:crypter.EnECB(plain.GetData(), key); break;
     }
     system("cls");
-    std::cout << "Èäåò çàïèñü cypher.docx";
+    std::cout << "ÃˆÃ¤Ã¥Ã² Ã§Ã Ã¯Ã¨Ã±Ã¼ Shifr.docx";
     cypher.GetData() = crypter.GetEncData();
     cypher.WriteData();
     system("cls");
-    std::cout << "Èäåò äåøèôðîâàíèå cypher.docx";
+    std::cout << "ÃˆÃ¤Ã¥Ã² Ã¤Ã¥Ã¸Ã¨Ã´Ã°Ã®Ã¢Ã Ã­Ã¨Ã¥ Shifr.docx";
     
 	switch (mode)
     {
@@ -57,7 +57,7 @@ int main()
     
     }
     system("cls");
-    std::cout << "Çàïèñü äåøèôðîâàíèÿ decrypted.docx";
+    std::cout << "Ã‡Ã Ã¯Ã¨Ã±Ã¼ Ã¤Ã¥Ã¸Ã¨Ã´Ã°Ã®Ã¢Ã Ã­Ã¨Ã¿ deshifr.docx";
     decrypted.GetData() = crypter.GetDecData();
     decrypted.WriteData();
     system("cls");
