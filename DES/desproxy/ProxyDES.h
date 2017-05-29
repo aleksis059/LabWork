@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "D:/cryptography-master/3_des/openssl/des.h"
+#include "../openssl/des.h"
 #include <vector>
 #include <iostream>
 #include <fstream>
