@@ -1,0 +1,22 @@
+MyHash 	8bit 			1.96539
+	16bit			2.44955
+	EntropiaBlock		2.56346
+	sizesource		556480	
+	sizezip			243807
+	разница(раз)		2.28246
+
+Исходный файл
+	8bit			2.66466
+	16bit			3.76415
+	EntropiaBlock		3.73834
+	sizesource		1.11292e+06
+	sizezip			1.0933e+06
+	разница(раз)		1.01795
+
+MD5 Hash
+	8bit 			1.25
+	16bit			0.927974
+	EntropiaBlock		0.987098
+	sizesource		524568
+	sizezip			234517
+	разница(раз)		1.97254
