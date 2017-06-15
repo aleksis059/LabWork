@@ -10,7 +10,7 @@ std::string file3 = "decrypt.docx";
 File fileone(file1);
 File filetwo(file2);
 File filefree(file3);
-int size = 32;
+unsigned int size = 32;
 unsigned char *key = new unsigned char[size];
 KeyGeneration keygen;
 key = keygen.RC4(size);
